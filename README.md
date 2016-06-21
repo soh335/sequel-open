@@ -5,7 +5,7 @@ my opening [Sequel Pro](http://www.sequelpro.com/) connection tool via command l
 ## INSTALL
 
 ```
-$ go get github.com/soh335/sequel-oepn
+$ go get github.com/soh335/sequel-open
 ```
 
 ## USAGE
