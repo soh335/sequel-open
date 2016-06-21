@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/d202499f52558eea19ef4123f915f3e2/s/master "wercker status")](https://app.wercker.com/project/bykey/d202499f52558eea19ef4123f915f3e2)
+
 # sequel-open
 
 my opening [Sequel Pro](http://www.sequelpro.com/) connection tool via command line.
