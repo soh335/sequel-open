@@ -14,6 +14,8 @@ $ go get github.com/soh335/sequel-oepn
 $ sequel-open -docker -host <container name> -ssh-password ... -ssh-user ... -user ... -password ...
 ```
 
+if `-docker` option is given, overwrite `-ssh-host` form `DOCKER_HOST` and `-host` via `docker inspect` command.
+
 ## KNOWN ISSUE
 
 * When close seuqle window, alert window is shown. Because temporary connection file is already deleted.
