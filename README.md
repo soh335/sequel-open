@@ -16,6 +16,10 @@ $ sequel-open -docker -host <container name> -ssh-password ... -ssh-user ... -us
 
 if `-docker` option is given, overwrite `-ssh-host` form `DOCKER_HOST` and `-host` via `docker inspect` command.
 
+## TODO
+
+* support normal, socket type.
+
 ## KNOWN ISSUE
 
 * When close seuqle window, alert window is shown. Because temporary connection file is already deleted.
