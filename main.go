@@ -142,7 +142,7 @@ func overwriteViaDocker() error {
 		return fmt.Errorf("cant detect docker host ip from DOCKER_HOST")
 	}
 
-	cmd := exec.Command("docker", "inspect", "--format='{{.NetworkSettings.IPAddress}}'", *host)
+	cmd := exec.Command("docker", "inspect", "--format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'", *host)
 	output, err := cmd.Output()
 	if err != nil {
 		return err
