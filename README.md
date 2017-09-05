@@ -1,4 +1,4 @@
-[![wercker status](https://app.wercker.com/status/d202499f52558eea19ef4123f915f3e2/s/master "wercker status")](https://app.wercker.com/project/bykey/d202499f52558eea19ef4123f915f3e2)
+[![Build Status](https://travis-ci.org/soh335/sequel-open.svg?branch=master)](https://travis-ci.org/soh335/sequel-open)
 
 # sequel-open
 
